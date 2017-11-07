@@ -37,9 +37,23 @@ public class ArrayExersice {
                 {
                 System.out.println(list[i]);
                 }
-                     while(n!=1)
-        
+       
+                
+                    
+                      while (n!=1) {
+                          
+                          System.out.println("Do you want to see an element in the array?If not enter -1");
+                          n=sc.nextInt();
+                         int x=n-1;
+                         
+                        System.out.println(list[x]);}
+                      
+                                          }
+                    
+                      
+                                    
+                     }
+                     
     
-}
 
-}
+
